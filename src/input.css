@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .nav-text,a,i{
+       @apply text-xl font-semibold
+    },
+    html , body{
+      @apply  h-[100%] w-[100%]
+    }
+}
