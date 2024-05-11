@@ -60,7 +60,7 @@ var tl2 = gsap.timeline({
 tl2.from(
   "#pepsi",
   { opacity: 0,
-    x: "-100", 
+    y: 180, 
     ease: "power1.out", 
     duration: 1 },
   "ca"
@@ -74,7 +74,7 @@ tl2.from("#iceCube", {
 tl2.from(
   "#sprite",
   { opacity: 0,
-     x: 180, 
+     y: 180, 
      ease: "power1.out",
       duration: 1 },
   "ca"
